@@ -1,0 +1,175 @@
+body{
+    margin: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    background-color: white;
+    }
+
+    /* HEADER
+    ================= */
+    .header{
+        border-bottom: 4px solid #000; 
+    }
+
+    .main-container{
+        padding: 35px;
+        box-shadow: 10px 5px 5px rgb(39, 236, 250);
+        background-color: whitesmoke;
+        margin: 40px auto;
+        width: 100%;
+        max-width: 950px;
+        
+        
+    }
+
+    .name{
+        margin: 0;
+        font-size: 50px;
+        letter-spacing: 4px;
+    }
+
+    .my-proffersion{
+        font-size: 22px;
+        font-family: 'Zen Kurenaido', sans-serif;
+    }
+
+    /* MAIN-INFORMATION
+    =================== */
+
+    .table{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        border-bottom: dotted 3px;
+        margin-top: 15px;
+        padding: 0 0 15px 0;
+        
+    }
+
+    .main-information{
+        padding: 25px 0 0 25px;
+        width: 27%;
+        float: left;
+    }
+
+    .personal-information{
+        border-collapse: collapse;
+        font-size: 16px;
+    }
+
+    .table-row{
+        border-bottom: solid 1px;
+        margin: 0;
+        font-weight: 700;
+    }
+
+    .table-row-link{
+        border-bottom: solid 1px;
+        margin: 0;
+    }
+
+    .table-row-language{
+        font-weight: 700;
+    }
+
+   
+
+   /* FILLING-INFORMATION
+    =================== */
+
+   .filling-information{
+        padding: 80px 10px 0 0;
+    }
+
+    .phone,
+    .mail{
+        text-decoration: none;
+    }
+        
+        
+   }
+
+   /* MY PICTURE =================== */
+
+   .picture{
+       margin-left: 15px;
+   }
+
+   .picture-item{
+       margin: 0;
+   }
+
+   .my-picture{
+       border-radius: 200px;
+       margin-left: 15px;
+   }
+
+   /* SOCIAL================== */
+
+   .social{
+       display: flex;
+       justify-content: center;
+   }
+
+   .social-item{
+       display: flex;
+       justify-content: center;
+       align-items: center;
+       width: 30px;
+       height: 30px;
+       border: 2px solid rgb(133, 138, 139);
+   }
+
+
+   .social-links{
+       margin: 0 7px 0 17px;
+   }
+
+   /* SKILLS  ====================== */
+
+
+   .skills-and-description{
+      flex-wrap: wrap;
+        justify-content: center;
+        align-content: center;
+        max-width: 100%;
+        height: auto;
+        overflow: hidden;
+        
+   }
+
+   .tech-and-soft{
+       float: right;
+       width: 30%;
+    }
+    .tech-skills,
+    .soft-skills{
+        padding: 0 35px 0 47px;
+    }
+
+   .description{
+       width: 70%;
+       
+   }
+
+   .tech-skills-items,
+   .soft-skills-items{
+       padding: 8px 0 0 20px;
+       color: rgb(50, 105, 93);
+   }
+
+
+
+/* DESCRIPTION================ */
+
+.profile-title,
+.profile-text{
+    padding: 0 auto;
+}
+
+.profile-text{
+    line-height: 1.8;
+    font-family: 'Merriweather', serif;
+    color: rgb(50, 105, 93);
+}
